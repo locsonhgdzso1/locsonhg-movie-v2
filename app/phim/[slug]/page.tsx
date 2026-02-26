@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       const name = slug
         .replace(/-/g, " ")
         .replace(/\b\w/g, (c) => c.toUpperCase());
-      return { title: `Xem phim ${name} - LocsongPhim` };
+      return { title: `Xem phim ${name} - LocsonhgPhim` };
     }
 
     // Build image URL: TMDB poster > CDN poster_url > CDN thumb_url
@@ -74,7 +74,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     const title = `${movie.name}${
       movie.origin_name ? ` (${movie.origin_name})` : ""
-    } - LocsongPhim`;
+    } - LocsonhgPhim`;
     const categories = movie.category?.map((c) => c.name).join(", ") ?? "";
     const pageUrl = `${OPHIM_CONFIG.BASE_URL}/phim/${slug}`;
 
@@ -86,7 +86,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title,
         description,
         url: pageUrl,
-        siteName: "LocsongPhim",
+        siteName: "LocsonhgPhim",
         type: "video.movie",
         images: imageUrl
           ? [
@@ -110,7 +110,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const name = slug
       .replace(/-/g, " ")
       .replace(/\b\w/g, (c) => c.toUpperCase());
-    return { title: `Xem phim ${name} - LocsongPhim` };
+    return { title: `Xem phim ${name} - LocsonhgPhim` };
   }
 }
 

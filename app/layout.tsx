@@ -12,7 +12,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "LocsongPhim - Xem Phim Miễn Phí Chất Lượng Cao",
+  title: "LocsonhgPhim - Xem Phim Miễn Phí Chất Lượng Cao",
   description:
     "Trang xem phim online miễn phí chất lượng cao. Vietsub, thuyết minh, lồng tiếng Full HD – 4K.",
   icons: {
@@ -71,7 +71,7 @@ export default function RootLayout({
               </div>
               <div className="global-loader-brand">
                 <span className="global-loader-brand-name">
-                  Locsong<span>Phim</span>
+                  Locsonhg<span>Phim</span>
                 </span>
                 <span className="global-loader-brand-sub">Phim hay từ HG</span>
               </div>
